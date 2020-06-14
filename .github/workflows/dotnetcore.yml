@@ -1,0 +1,82 @@
+name: Build and Deploy
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.100
+
+    - name: Generate revision number
+      uses: einaregilsson/build-number@v2 
+      with:
+        token: ${{secrets.github_token}}
+    
+    - name: Generate version number
+      run: |
+        VERSION_REVISION=$BUILD_NUMBER
+        echo "$VERSION_REVISION" > .version/revision.txt
+        VERSION_MAJOR=$(<.version/major.txt)
+        VERSION_MINOR=$(<.version/minor.txt)
+        echo "$VERSION_MAJOR.$VERSION_MINOR.$VERSION_REVISION" > .version/version.txt
+        VERSION=$(<.version/version.txt)
+        echo "::set-env name=VERSION_REVISION::$VERSION_REVISION"
+        echo "::set-env name=VERSION_MAJOR::$VERSION_MAJOR"
+        echo "::set-env name=VERSION_MINOR::$VERSION_MINOR"
+        echo "::set-env name=VERSION::$VERSION"
+        echo "Revision: $VERSION_REVISION"
+        echo "Major version: $VERSION_MAJOR"
+        echo "Minor version: $VERSION_MINOR"
+        echo "::set-env name=VERSION::$(<.version/version.txt)"
+        echo "Version: $VERSION"
+
+    - name: Build
+      run: |
+        SUFFIX="-preview"
+        echo "Building version: $VERSION"
+        dotnet build --configuration Release -p:Version="$VERSION" -p:NuGetVersion="$VERSION$SUFFIX"
+
+    - name: Test
+      run: |
+        dotnet test --configuration Release -p:Version="$VERSION" -p:CollectCoverage=true -p:CoverletOutput=/home/runner/work/OpenCollar.Extensions.Security/OpenCollar.Extensions.Security/coverage/ -p:CoverletOutputFormat=lcov -p:ExcludeByFile="**/*.designer.cs"
+
+    - name: Coveralls
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        path-to-lcov: /home/runner/work/OpenCollar.Extensions.Security/OpenCollar.Extensions.Security/coverage/coverage.info
+
+    - name: Set documentation version number
+      run: |
+        echo "Setting documentation version: $VERSION"        
+        cd docs
+        git grep -lz 'BUILD_VERSION' | xargs -0 sed -i -e "s/BUILD_VERSION/$VERSION/g"
+        cd ..
+      
+    - name: Commit changes (documentation)
+      if: github.ref == 'refs/heads/master'
+      run: |
+        git config --local user.email "jevans@open-collar.org.uk"
+        git config --local user.name "Jonathan Evans"
+        git add -- ./docs
+        git commit -m "Published documentation from build $VERSION."
+      
+    - name: Push changes (documentation)
+      uses: ad-m/github-push-action@v0.5.0
+      if: github.ref == 'refs/heads/master'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+      
+    - name: Publish
+      if: github.ref == 'refs/heads/master'
+      run: |
+        echo "Pubishing version: $VERSION$SUFFIX"
+        dotnet nuget push **/*.nupkg --api-key ${{secrets.NUGET_DEPLOY_KEY}} --source https://api.nuget.org/v3/index.json
+

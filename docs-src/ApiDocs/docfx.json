@@ -1,0 +1,85 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "**.csproj"
+          ],
+          "src": "../../src"
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "filter": "public-api-config.yml"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "usage/**.md",
+          "usage/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "dest": "../../docs",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "custom-template"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false,
+    "useCompatibilityFileName": false,
+    "properties": {
+      "TargetFramework": "netstandard31"
+    },
+    "globalMetadata": {
+      "_appTitle": "API Documentation",
+      "_appFooter": "<div style='box-sizing: border-box;'><div style='float: left; width: calc(100% - 200px);'>Copyright &copy; 2019-2020 <a href='mailto:jevans@open-collar.org.uk'>Jonathan Evans</a></div><div style='float: left; width: 200px;'><span style='font-style: italic;'>Version: BUILD_VERSION</span></div></div>",
+      "_appLogoPath": "./images/opencollar-icon-48x96x32.png",
+      "_appFaviconPath": "./images/favicon.ico",
+      "_enableSearch": true,
+      "_enableNewTab": true,
+      "_gitUrlPattern": "github",
+      "_gitContribute": {
+        "repo": "https://github.com/open-collar/OpenCollar.Extensions.Security.git",
+        "branch": "master",
+        "apiSpecFolder": "docs-ref-overwrite"
+      }
+    }
+  }
+}

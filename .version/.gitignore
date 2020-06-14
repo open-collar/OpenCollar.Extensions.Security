@@ -1,0 +1,5 @@
+# Only permit the major and minor version files to be retained
+*
+!.gitignore
+!major.txt
+!minor.txt

@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Validate_ArgumentIsNull" xml:space="preserve">
+    <value>'{0}' is null.</value>
+    <comment>0: The argument name.</comment>
+  </data>
+  <data name="Validate_ArgumentIsWhiteSpaceOnly" xml:space="preserve">
+    <value>'{0}' contains only white space characters.</value>
+    <comment>0: The argument name.</comment>
+  </data>
+  <data name="Validate_ArgumentIsZeroLength" xml:space="preserve">
+    <value>'{0}' is zero-length.</value>
+    <comment>0: The argument name.</comment>
+  </data>
+  <data name="Validate_ArrayTooSmall" xml:space="preserve">
+    <value>'{0}' is not large enough to hold the contents of this collection (if data is copied to the location specified by '{1}'.</value>
+    <comment>0: The array argument name.
+1: The index argument name.</comment>
+  </data>
+  <data name="Validate_EnumDoesNotContainValidValue" xml:space="preserve">
+    <value>'0' does not contain a valid value.</value>
+    <comment>0: The argument name.</comment>
+  </data>
+  <data name="Validate_EnumValueNotEnum" xml:space="preserve">
+    <value>'{0}' must be an of an enum type.</value>
+    <comment>0: The argument name.</comment>
+  </data>
+  <data name="Validate_EnumValueNotMember" xml:space="preserve">
+    <value>The value provided in '{0}' was not a valid member of the '{1}.{2}' enum.</value>
+    <comment>0: The argument name.
+1: The enum type namespace.
+2: The enum type name.</comment>
+  </data>
+  <data name="Validate_MustBeLessThanOrEqualToCount" xml:space="preserve">
+    <value>'{0}' must be less than or equal to the number of items in the collection.</value>
+    <comment>0: The argument name.</comment>
+  </data>
+  <data name="Validate_NumberMustBeGreaterThanEqualZero" xml:space="preserve">
+    <value>'{0}' must be greater than or equal to zero.</value>
+    <comment>0: The argument name.</comment>
+  </data>
+  <data name="Validate_NumberTooSmall" xml:space="preserve">
+    <value>'{0}' must be at least zero.</value>
+    <comment>0: The argument name.</comment>
+  </data>
+  <data name="Validate_Path" xml:space="preserve">
+    <value>'{0}' must contain a valid path or fragment of a path.</value>
+    <comment>0: The argument name.</comment>
+  </data>
+  <data name="Validate_ValidationKindWrong" xml:space="preserve">
+    <value>The value provided in '{0}' was not a valid member of the '{1}' enum.</value>
+    <comment>0: The argument name.
+1: The enum type name.</comment>
+  </data>
+  <data name="Validate_ValueZero" xml:space="preserve">
+    <value>The value provided in '{0}' was zero.</value>
+    <comment>0: The argument name.</comment>
+  </data>
+  <data name="Fragment_UnknownArgument" xml:space="preserve">
+    <value>[Unknown]</value>
+  </data>
+  <data name="Validate_ArgumentIsHigherThanUpperBound" xml:space="preserve">
+    <value>Value {0} is higher than upper bound {1}.</value>
+    <comment>{0} - Value supplied.
+{1} - Upper bound.</comment>
+  </data>
+  <data name="Validate_ArgumentIsLowerThanLowerBound" xml:space="preserve">
+    <value>Value {0} is lower than lower bound {1}.</value>
+    <comment>{0} - Value supplied.
+{1} - Lower bound.</comment>
+  </data>
+  <data name="DelegateReturnedNull" xml:space="preserve">
+    <value>'{0}' delegate returned null.</value>
+    <comment>{0} - The name of the property containing the delegate.</comment>
+  </data>
+  <data name="DuplicateKey" xml:space="preserve">
+    <value>Two or more values correspond to the same key: '{0}'.</value>
+    <comment>{0} - The duplicated key.</comment>
+  </data>
+  <data name="DuplicateKeyInDictionary" xml:space="preserve">
+    <value>Dictionary '{0}' already contains a key name '{1}'.</value>
+    <comment>{0} - Dictionary name.
+{1} - Key.</comment>
+  </data>
+  <data name="IndexOutOfRange" xml:space="preserve">
+    <value>'index' must be value greater than or equal to zero and less than the value returned by the 'Count' property.</value>
+  </data>
+  <data name="ItemNotFound" xml:space="preserve">
+    <value>No item with the key specified could be found in the lookup: "{0}".</value>
+    <comment>{0} - The key sought.</comment>
+  </data>
+  <data name="NullKeyGenerated" xml:space="preserve">
+    <value>The key generated for the value '{0}' was null.</value>
+    <comment>{0} - The value for which a null key was generated.</comment>
+  </data>
+  <data name="ObjectIsNotTheSameTypeAsThisInstance" xml:space="preserve">
+    <value>'{0}' is not the same type as this instance.</value>
+    <comment>{0} - the name of the argument that is of the incorrect type.</comment>
+  </data>
+</root>

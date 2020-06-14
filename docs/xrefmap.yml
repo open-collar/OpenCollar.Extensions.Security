@@ -1,0 +1,41 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: OpenCollar.Extensions.Security
+  name: OpenCollar.Extensions.Security
+  href: api/OpenCollar.Extensions.Security.html
+  commentId: N:OpenCollar.Extensions.Security
+  fullName: OpenCollar.Extensions.Security
+  nameWithType: OpenCollar.Extensions.Security
+- uid: OpenCollar.Extensions.Security.SecureStringExtensions
+  name: SecureStringExtensions
+  href: api/OpenCollar.Extensions.Security.SecureStringExtensions.html
+  commentId: T:OpenCollar.Extensions.Security.SecureStringExtensions
+  fullName: OpenCollar.Extensions.Security.SecureStringExtensions
+  nameWithType: SecureStringExtensions
+- uid: OpenCollar.Extensions.Security.SecureStringExtensions.ToSecureString(System.String)
+  name: ToSecureString(String)
+  href: api/OpenCollar.Extensions.Security.SecureStringExtensions.html#OpenCollar_Extensions_Security_SecureStringExtensions_ToSecureString_System_String_
+  commentId: M:OpenCollar.Extensions.Security.SecureStringExtensions.ToSecureString(System.String)
+  fullName: OpenCollar.Extensions.Security.SecureStringExtensions.ToSecureString(System.String)
+  nameWithType: SecureStringExtensions.ToSecureString(String)
+- uid: OpenCollar.Extensions.Security.SecureStringExtensions.ToSecureString*
+  name: ToSecureString
+  href: api/OpenCollar.Extensions.Security.SecureStringExtensions.html#OpenCollar_Extensions_Security_SecureStringExtensions_ToSecureString_
+  commentId: Overload:OpenCollar.Extensions.Security.SecureStringExtensions.ToSecureString
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Security.SecureStringExtensions.ToSecureString
+  nameWithType: SecureStringExtensions.ToSecureString
+- uid: OpenCollar.Extensions.Security.SecureStringExtensions.ToSystemString(System.Security.SecureString)
+  name: ToSystemString(SecureString)
+  href: api/OpenCollar.Extensions.Security.SecureStringExtensions.html#OpenCollar_Extensions_Security_SecureStringExtensions_ToSystemString_System_Security_SecureString_
+  commentId: M:OpenCollar.Extensions.Security.SecureStringExtensions.ToSystemString(System.Security.SecureString)
+  fullName: OpenCollar.Extensions.Security.SecureStringExtensions.ToSystemString(System.Security.SecureString)
+  nameWithType: SecureStringExtensions.ToSystemString(SecureString)
+- uid: OpenCollar.Extensions.Security.SecureStringExtensions.ToSystemString*
+  name: ToSystemString
+  href: api/OpenCollar.Extensions.Security.SecureStringExtensions.html#OpenCollar_Extensions_Security_SecureStringExtensions_ToSystemString_
+  commentId: Overload:OpenCollar.Extensions.Security.SecureStringExtensions.ToSystemString
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Security.SecureStringExtensions.ToSystemString
+  nameWithType: SecureStringExtensions.ToSystemString

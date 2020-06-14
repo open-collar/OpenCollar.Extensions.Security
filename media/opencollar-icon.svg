@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg-rdix-logo"
+   viewBox="0 0 319.999 319.999"
+   height="320"
+   width="320"
+   sodipodi:docname="opencollar-icon.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview3733"
+     showgrid="false"
+     inkscape:zoom="1.8959301"
+     inkscape:cx="117.82553"
+     inkscape:cy="154.7475"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer-rdix-logo" />
+  <title
+     id="title-rdix-logo">Rdix Logo</title>
+  <defs
+     id="defs-rdix" />
+  <metadata
+     id="metadata-rdix">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Rdix Logo</dc:title>
+        <dc:date>30 April 2016</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jonathan Evans</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Copyright 2016 Jonathan Evans</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Jonathan Evans</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>rdix-logo</dc:identifier>
+        <dc:language>English</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>rdix logo triangle</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>The standard Rdix logo and icon. Consists of four equilateral triangles arranged in a pyramid with the bottom layer constructed from three triangles arranged point-up, point-down, point-up.  The second layer consists of a single layer with a single triangle point-up.  The triangles are coloured (starting at the top and proceeding clockwise) Yellow, Blue, Green and Red.</dc:description>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Jonathan Evans</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer-rdix-logo">
+    <path
+       inkscape:connector-curvature="0"
+       Fill="#859900"
+       style="fill:#dc322f;fill-opacity:1"
+       d="M 70.7619,221.6815 141.5243,99.11742 H -5e-4 Z"
+       id="left-green" />
+    <path
+       inkscape:connector-curvature="0"
+       Fill="#B58900"
+       style="fill:none;fill-opacity:1;stroke:#859900;stroke-width:7.54224253;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 159.73578,101.86625 225.3638,219.32902 H 94.107756 Z"
+       id="middle-yellow" />
+    <path
+       inkscape:connector-curvature="0"
+       Fill="#268BD2"
+       style="fill:#268bd2"
+       d="M 249.2371,221.6815 319.9995,99.11742 H 178.4747 Z"
+       id="right-blue" />
+  </g>
+</svg>

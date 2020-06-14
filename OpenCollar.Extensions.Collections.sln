@@ -1,0 +1,119 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCollar.Extensions.Security", "src\OpenCollar.Extensions.Security\OpenCollar.Extensions.Security.csproj", "{806665D8-7299-45F0-956C-BBACE12D14C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E811560-F82C-11E9-BF62-FD6DB016B1EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B709D989-2CBB-4947-8FB2-0A0ED44A6C52}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		_config.yml = _config.yml
+		CodeMaid.config = CodeMaid.config
+		LICENSE = LICENSE
+		OpenCollar.Extensions.Security.sln.DotSettings = OpenCollar.Extensions.Security.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{4CB53D99-C3E1-4CC8-B058-A7E8CA78A515}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{8A6FA1A3-B379-449E-BD1D-E631B326D95B}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnetcore.yml = .github\workflows\dotnetcore.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{97510A42-1DFE-46A9-94BC-F716322F2598}"
+	ProjectSection(SolutionItems) = preProject
+		docs\.gitignore = docs\.gitignore
+		docs\_config.yml = docs\_config.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiDocs", "docs-src\ApiDocs\ApiDocs.csproj", "{DE0DD469-09DC-4436-8CC5-E86AD4231371}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs-src", "docs-src", "{EB2B82BB-BE74-4B60-B93C-633AA5D5B6AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".version", ".version", "{EBC507DC-50D5-4EB8-A7D1-40A5B30B410F}"
+	ProjectSection(SolutionItems) = preProject
+		.version\.gitignore = .version\.gitignore
+		.version\major.txt = .version\major.txt
+		.version\minor.txt = .version\minor.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "media", "media", "{ADA32901-1130-419A-909D-DFBBC231C967}"
+	ProjectSection(SolutionItems) = preProject
+		media\opencollar-icon-16x16x32.png = media\opencollar-icon-16x16x32.png
+		media\opencollar-icon-320x320x32.png = media\opencollar-icon-320x320x32.png
+		media\opencollar-icon-32x32x32.png = media\opencollar-icon-32x32x32.png
+		media\opencollar-icon.svg = media\opencollar-icon.svg
+		media\opencollar-logo-320x132x32.png = media\opencollar-logo-320x132x32.png
+		media\opencollar-logo-320x25x32.png = media\opencollar-logo-320x25x32.png
+		media\opencollar-logo.svg = media\opencollar-logo.svg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4F1AC1CC-4F19-422E-9C1B-FBE1E95F95A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCollar.Extensions.Security.TESTS", "test\OpenCollar.Extensions.Security.TESTS\OpenCollar.Extensions.Security.TESTS.csproj", "{58D847E6-AA15-465F-A49F-D49F00B0FFD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{806665D8-7299-45F0-956C-BBACE12D14C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806665D8-7299-45F0-956C-BBACE12D14C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806665D8-7299-45F0-956C-BBACE12D14C1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{806665D8-7299-45F0-956C-BBACE12D14C1}.Debug|x64.Build.0 = Debug|Any CPU
+		{806665D8-7299-45F0-956C-BBACE12D14C1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{806665D8-7299-45F0-956C-BBACE12D14C1}.Debug|x86.Build.0 = Debug|Any CPU
+		{806665D8-7299-45F0-956C-BBACE12D14C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806665D8-7299-45F0-956C-BBACE12D14C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806665D8-7299-45F0-956C-BBACE12D14C1}.Release|x64.ActiveCfg = Release|Any CPU
+		{806665D8-7299-45F0-956C-BBACE12D14C1}.Release|x64.Build.0 = Release|Any CPU
+		{806665D8-7299-45F0-956C-BBACE12D14C1}.Release|x86.ActiveCfg = Release|Any CPU
+		{806665D8-7299-45F0-956C-BBACE12D14C1}.Release|x86.Build.0 = Release|Any CPU
+		{DE0DD469-09DC-4436-8CC5-E86AD4231371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0DD469-09DC-4436-8CC5-E86AD4231371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0DD469-09DC-4436-8CC5-E86AD4231371}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DE0DD469-09DC-4436-8CC5-E86AD4231371}.Debug|x64.Build.0 = Debug|Any CPU
+		{DE0DD469-09DC-4436-8CC5-E86AD4231371}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DE0DD469-09DC-4436-8CC5-E86AD4231371}.Debug|x86.Build.0 = Debug|Any CPU
+		{DE0DD469-09DC-4436-8CC5-E86AD4231371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0DD469-09DC-4436-8CC5-E86AD4231371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0DD469-09DC-4436-8CC5-E86AD4231371}.Release|x64.ActiveCfg = Release|Any CPU
+		{DE0DD469-09DC-4436-8CC5-E86AD4231371}.Release|x64.Build.0 = Release|Any CPU
+		{DE0DD469-09DC-4436-8CC5-E86AD4231371}.Release|x86.ActiveCfg = Release|Any CPU
+		{DE0DD469-09DC-4436-8CC5-E86AD4231371}.Release|x86.Build.0 = Release|Any CPU
+		{58D847E6-AA15-465F-A49F-D49F00B0FFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D847E6-AA15-465F-A49F-D49F00B0FFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D847E6-AA15-465F-A49F-D49F00B0FFD8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{58D847E6-AA15-465F-A49F-D49F00B0FFD8}.Debug|x64.Build.0 = Debug|Any CPU
+		{58D847E6-AA15-465F-A49F-D49F00B0FFD8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{58D847E6-AA15-465F-A49F-D49F00B0FFD8}.Debug|x86.Build.0 = Debug|Any CPU
+		{58D847E6-AA15-465F-A49F-D49F00B0FFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D847E6-AA15-465F-A49F-D49F00B0FFD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D847E6-AA15-465F-A49F-D49F00B0FFD8}.Release|x64.ActiveCfg = Release|Any CPU
+		{58D847E6-AA15-465F-A49F-D49F00B0FFD8}.Release|x64.Build.0 = Release|Any CPU
+		{58D847E6-AA15-465F-A49F-D49F00B0FFD8}.Release|x86.ActiveCfg = Release|Any CPU
+		{58D847E6-AA15-465F-A49F-D49F00B0FFD8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{806665D8-7299-45F0-956C-BBACE12D14C1} = {9E811560-F82C-11E9-BF62-FD6DB016B1EA}
+		{8A6FA1A3-B379-449E-BD1D-E631B326D95B} = {4CB53D99-C3E1-4CC8-B058-A7E8CA78A515}
+		{DE0DD469-09DC-4436-8CC5-E86AD4231371} = {EB2B82BB-BE74-4B60-B93C-633AA5D5B6AF}
+		{58D847E6-AA15-465F-A49F-D49F00B0FFD8} = {4F1AC1CC-4F19-422E-9C1B-FBE1E95F95A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D6B1BA9-0595-478F-91A0-E419289B1E0F}
+	EndGlobalSection
+EndGlobal

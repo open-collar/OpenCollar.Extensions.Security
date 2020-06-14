@@ -1,0 +1,26 @@
+.body-content {
+    width: calc(100% - 30px);
+}
+
+.container {
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.inheritedMembers {
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.active {
+    font-size: 14px;
+}
+
+.toc {
+    overflow-x: auto;
+}
+
+#toc > ul > li > a {
+    font-size: 12px;
+}
