@@ -1,37 +1,27 @@
 {
-  "index.html": {
-    "href": "index.html",
+  "api/index.html": {
+    "href": "api/index.html",
     "title": "OpenCollar.Extensions.Security | API Documentation",
-    "keywords": "OpenCollar.Extensions.Security The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime. NuGet Package Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Security/ Project Latest Build: Source Code on GitHub Issue Tracking on GitHub Documentation on GitHub Pages Usage The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime. Related Project OpenCollar.Extensions OpenCollar.Extensions.Security OpenCollar.Extensions.Security"
+    "keywords": "OpenCollar.Extensions.Security Support for automatic validation, update and strongly-typed access to configuration. NuGet Package Installation Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Security/"
   },
   "usage/index.html": {
     "href": "usage/index.html",
     "title": "Basics | API Documentation",
     "keywords": "Basics The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime."
   },
-  "api/OpenCollar.Extensions.Security.SecureStringExtensions.html": {
-    "href": "api/OpenCollar.Extensions.Security.SecureStringExtensions.html",
-    "title": "Class SecureStringExtensions | API Documentation",
-    "keywords": "Class SecureStringExtensions Extensions to the System.Security.SecureString class and related helpers. Inheritance System.Object SecureStringExtensions Namespace : OpenCollar.Extensions.Security Assembly : OpenCollar.Extensions.Security.dll Syntax public static class SecureStringExtensions Methods | Improve this Doc ToSecureString(String) Converts a standard .NET string into a secure string. Declaration [ContractAnnotation(\"null=>null;notnull=>notnull\")] public static SecureString ToSecureString([CanBeNull] this string value) Parameters Type Name Description System.String value The .NET string to convert. If null then null is returned. Returns Type Description System.Security.SecureString A read-only secure string containing the value supplied in the .NET string, or null if that was supplied. It is the callers responsibility to dispose of the secure string when finished. | Improve this Doc ToSystemString(SecureString) Converts secure string to a standard .NET string. Declaration [ContractAnnotation(\"null=>null;notnull=>notnull\")] public static string ToSystemString([CanBeNull] this SecureString value) Parameters Type Name Description System.Security.SecureString value The secure string to convert. If null then null is returned. Returns Type Description System.String A .NET string containing the value supplied in the secure string, or null if that was supplied."
-  },
-  "api/Wtw.Crb.Common.Core.html": {
-    "href": "api/Wtw.Crb.Common.Core.html",
-    "title": "Namespace OpenCollar.Extensions.Security | API Documentation",
-    "keywords": "Namespace OpenCollar.Extensions.Security Classes SecureStringExtensions Extensions to the System.Security.SecureString class and related helpers."
-  },
-  "api/Wtw.Crb.Common.Core.SecureStringExtensions.html": {
-    "href": "api/Wtw.Crb.Common.Core.SecureStringExtensions.html",
-    "title": "Class SecureStringExtensions | API Documentation",
-    "keywords": "Class SecureStringExtensions Extensions to the System.Security.SecureString class and related helpers. Inheritance System.Object SecureStringExtensions Namespace : OpenCollar.Extensions.Security Assembly : OpenCollar.Extensions.Security.dll Syntax public static class SecureStringExtensions Methods | Improve this Doc ToSecureString(String) Converts a standard .NET string into a secure string. Declaration [ContractAnnotation(\"null=>null;notnull=>notnull\")] public static SecureString ToSecureString([CanBeNull] this string value) Parameters Type Name Description System.String value The .NET string to convert. If null then null is returned. Returns Type Description System.Security.SecureString A read-only secure string containing the value supplied in the .NET string, or null if that was supplied. It is the callers responsibility to dispose of the secure string when finished. | Improve this Doc ToSystemString(SecureString) Converts a standard .NET string into secure string. Declaration [ContractAnnotation(\"null=>null;notnull=>notnull\")] public static string ToSystemString([CanBeNull] this SecureString value) Parameters Type Name Description System.Security.SecureString value The secure string to convert. If null then null is returned. Returns Type Description System.String A .NET string containing the value supplied in the secure string, or null if that was supplied."
+  "index.html": {
+    "href": "index.html",
+    "title": "OpenCollar.Extensions.Security | API Documentation",
+    "keywords": "OpenCollar.Extensions.Security The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime. NuGet Package Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Security/ Project Latest Build: Source Code on GitHub Issue Tracking on GitHub Documentation on GitHub Pages Usage The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime. Related Project OpenCollar.Extensions OpenCollar.Extensions.Security OpenCollar.Extensions.Security"
   },
   "api/OpenCollar.Extensions.Security.html": {
     "href": "api/OpenCollar.Extensions.Security.html",
     "title": "Namespace OpenCollar.Extensions.Security | API Documentation",
     "keywords": "Namespace OpenCollar.Extensions.Security Classes SecureStringExtensions Extensions to the System.Security.SecureString class and related helpers."
   },
-  "api/index.html": {
-    "href": "api/index.html",
-    "title": "OpenCollar.Extensions.Security | API Documentation",
-    "keywords": "OpenCollar.Extensions.Security Support for automatic validation, update and strongly-typed access to configuration. NuGet Package Installation Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Security/"
+  "api/OpenCollar.Extensions.Security.SecureStringExtensions.html": {
+    "href": "api/OpenCollar.Extensions.Security.SecureStringExtensions.html",
+    "title": "Class SecureStringExtensions | API Documentation",
+    "keywords": "Class SecureStringExtensions Extensions to the System.Security.SecureString class and related helpers. Inheritance System.Object SecureStringExtensions Namespace : OpenCollar.Extensions.Security Assembly : OpenCollar.Extensions.Security.dll Syntax public static class SecureStringExtensions Methods | Improve this Doc View Source ToSecureString(String) Converts a standard .NET string into a secure string. Declaration [ContractAnnotation(\"null=>null;notnull=>notnull\")] public static SecureString ToSecureString([CanBeNull] this string value) Parameters Type Name Description System.String value The .NET string to convert. If null then null is returned. Returns Type Description System.Security.SecureString A read-only secure string containing the value supplied in the .NET string, or null if that was supplied. It is the callers responsibility to dispose of the secure string when finished. | Improve this Doc View Source ToSystemString(SecureString) Converts secure string to a standard .NET string. Declaration [ContractAnnotation(\"null=>null;notnull=>notnull\")] public static string ToSystemString([CanBeNull] this SecureString value) Parameters Type Name Description System.Security.SecureString value The secure string to convert. If null then null is returned. Returns Type Description System.String A .NET string containing the value supplied in the secure string, or null if that was supplied."
   }
 }
