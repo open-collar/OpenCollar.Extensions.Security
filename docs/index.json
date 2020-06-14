@@ -14,10 +14,25 @@
     "title": "OpenCollar.Extensions.Security | API Documentation",
     "keywords": "OpenCollar.Extensions.Security The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime. NuGet Package Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Security/ Project Latest Build: Source Code on GitHub Issue Tracking on GitHub Documentation on GitHub Pages Usage The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime. Related Project OpenCollar.Extensions OpenCollar.Extensions.Security OpenCollar.Extensions.Security"
   },
+  "api/OpenCollar.Extension.Security.Threading.html": {
+    "href": "api/OpenCollar.Extension.Security.Threading.html",
+    "title": "Class Threading | API Documentation",
+    "keywords": "Class Threading A class providing static utility methods related to impersonation. Inheritance System.Object Threading Namespace : OpenCollar.Extension.Security Assembly : OpenCollar.Extensions.Security.dll Syntax public static class Threading Methods | Improve this Doc View Source GetThreadPrincipal() Returns the user on the current thread. Declaration [NotNull] public static IPrincipal GetThreadPrincipal() Returns Type Description System.Security.Principal.IPrincipal A string containing the name of the current thread's user identity. | Improve this Doc View Source GetThreadUser() Returns the user on the current thread. Declaration [NotNull] public static string GetThreadUser() Returns Type Description System.String A string containing the name of the current thread's user identity."
+  },
+  "api/OpenCollar.Extension.Security.html": {
+    "href": "api/OpenCollar.Extension.Security.html",
+    "title": "Namespace OpenCollar.Extension.Security | API Documentation",
+    "keywords": "Namespace OpenCollar.Extension.Security Classes Encryption Simple encryption utilities. Threading A class providing static utility methods related to impersonation."
+  },
   "api/OpenCollar.Extensions.Security.html": {
     "href": "api/OpenCollar.Extensions.Security.html",
     "title": "Namespace OpenCollar.Extensions.Security | API Documentation",
     "keywords": "Namespace OpenCollar.Extensions.Security Classes SecureStringExtensions Extensions to the System.Security.SecureString class and related helpers."
+  },
+  "api/OpenCollar.Extension.Security.Encryption.html": {
+    "href": "api/OpenCollar.Extension.Security.Encryption.html",
+    "title": "Class Encryption | API Documentation",
+    "keywords": "Class Encryption Simple encryption utilities. Inheritance System.Object Encryption Namespace : OpenCollar.Extension.Security Assembly : OpenCollar.Extensions.Security.dll Syntax public static class Encryption Methods | Improve this Doc View Source Decrypt(String, String) Decrypts the specified encrypted text. Declaration [NotNull] public static string Decrypt([NotNull] string encryptedText, [NotNull] string key) Parameters Type Name Description System.String encryptedText The encrypted text to decrypt. System.String key The string the acts as a pass phrase. Returns Type Description System.String A plaintext string. Exceptions Type Condition System.ArgumentNullException key is null . System.ArgumentException key is zero length. System.ArgumentNullException encryptedText is null . System.ArgumentException encryptedText is zero length. | Improve this Doc View Source Encrypt(String, String) Encrypts the specified plain text. Declaration [NotNull] public static string Encrypt([NotNull] string plainText, [NotNull] string key) Parameters Type Name Description System.String plainText The plain text string to encrypt. System.String key The string the acts as a pass phrase. Returns Type Description System.String A string containing an encrypted representation of the text given Exceptions Type Condition System.ArgumentNullException key is null . System.ArgumentException key is zero length. System.ArgumentNullException plainText is null . System.ArgumentException plainText is zero length."
   },
   "api/OpenCollar.Extensions.Security.SecureStringExtensions.html": {
     "href": "api/OpenCollar.Extensions.Security.SecureStringExtensions.html",
