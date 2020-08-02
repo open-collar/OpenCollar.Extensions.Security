@@ -60,8 +60,15 @@ There are no hard dependencies on tooling, all that is required is the
  * [Coveralls GitHub Action](https://github.com/marketplace/actions/coveralls-github-action)
  * [Badges](https://shields.io/category/build)
 
-# Related Project
+# Related Projects
 
 * [OpenCollar.Extensions](https://github.com/open-collar/OpenCollar.Extensions)
+* [OpenCollar.Extensions.ApplicationInsights](https://github.com/open-collar/OpenCollar.Extensions.ApplicationInsights)
+* [OpenCollar.Extensions.Collections](https://github.com/open-collar/OpenCollar.Extensions.Collections)
+* [OpenCollar.Extensions.Configuraton](https://github.com/open-collar/OpenCollar.Extensions.Configuraton)
+* [OpenCollar.Extensions.Environment](https://github.com/open-collar/OpenCollar.Extensions.Environment)
+* [OpenCollar.Extensions.IO](https://github.com/open-collar/OpenCollar.Extensions.IO)
+* [OpenCollar.Extensions.Logging](https://github.com/open-collar/OpenCollar.Extensions.Logging)
 * [OpenCollar.Extensions.Security](https://github.com/open-collar/OpenCollar.Extensions.Security)
-* [OpenCollar.Extensions.Security](https://github.com/open-collar/OpenCollar.Extensions.Security)
+* [OpenCollar.Extensions.Threading](https://github.com/open-collar/OpenCollar.Extensions.Threading)
+* [OpenCollar.Extensions.Validation](https://github.com/open-collar/OpenCollar.Extensions.Validation)

@@ -52,7 +52,7 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="OpenCollar.Extensions" Version="0.5.9" />
+        <PackageReference Include="OpenCollar.Extensions" Version="0.5.10" />
         <PackageReference Include="OpenCollar.Extensions.Validation" Version="0.5.11" />
     </ItemGroup>
 
