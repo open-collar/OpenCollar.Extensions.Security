@@ -27,14 +27,14 @@ jobs:
         VERSION_MINOR=$(<.version/minor.txt)
         echo "$VERSION_MAJOR.$VERSION_MINOR.$VERSION_REVISION" > .version/version.txt
         VERSION=$(<.version/version.txt)
-        echo "::set-env name=VERSION_REVISION::$VERSION_REVISION"
-        echo "::set-env name=VERSION_MAJOR::$VERSION_MAJOR"
-        echo "::set-env name=VERSION_MINOR::$VERSION_MINOR"
-        echo "::set-env name=VERSION::$VERSION"
+        echo "VERSION_REVISION=VERSION_REVISION" >> $GITHUB_ENV
+        echo "VERSION_MAJOR=VERSION_MAJOR" >> $GITHUB_ENV
+        echo "VERSION_MINOR=VERSION_MINOR" >> $GITHUB_ENV
+        echo "VERSION=VERSION" >> $GITHUB_ENV
         echo "Revision: $VERSION_REVISION"
         echo "Major version: $VERSION_MAJOR"
         echo "Minor version: $VERSION_MINOR"
-        echo "::set-env name=VERSION::$(<.version/version.txt)"
+        echo "VERSION=(<.version/version.txt)" >> $GITHUB_ENV
         echo "Version: $VERSION"
 
     - name: Build
