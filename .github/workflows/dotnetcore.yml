@@ -34,7 +34,7 @@ jobs:
         echo "Revision: $VERSION_REVISION"
         echo "Major version: $VERSION_MAJOR"
         echo "Minor version: $VERSION_MINOR"
-        echo "VERSION=(<.version/version.txt)" >> $GITHUB_ENV
+        echo "VERSION=$(<.version/version.txt)" >> $GITHUB_ENV
         echo "Version: $VERSION"
 
     - name: Build
