@@ -14,6 +14,20 @@ jobs:
       with:
         dotnet-version: 3.1.100
 
+    - name: Get branch name (merge)
+      if: github.event_name != 'pull_request'
+      shell: bash
+      run: |
+        echo "DOCFX_SOURCE_BRANCH_NAME=$(echo ${GITHUB_REF#refs/heads/} | tr / -)" >> $GITHUB_ENV        
+        echo "Branch: $DOCFX_SOURCE_BRANCH_NAME"
+
+    - name: Get branch name (pull request)
+      if: github.event_name == 'pull_request'
+      shell: bash
+      run: |
+        echo "DOCFX_SOURCE_BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
+        echo "Branch: $DOCFX_SOURCE_BRANCH_NAME"
+
     - name: Generate revision number
       uses: einaregilsson/build-number@v3 
       with:
@@ -27,10 +41,10 @@ jobs:
         VERSION_MINOR=$(<.version/minor.txt)
         echo "$VERSION_MAJOR.$VERSION_MINOR.$VERSION_REVISION" > .version/version.txt
         VERSION=$(<.version/version.txt)
-        echo "VERSION_REVISION=VERSION_REVISION" >> $GITHUB_ENV
-        echo "VERSION_MAJOR=VERSION_MAJOR" >> $GITHUB_ENV
-        echo "VERSION_MINOR=VERSION_MINOR" >> $GITHUB_ENV
-        echo "VERSION=VERSION" >> $GITHUB_ENV
+        echo "VERSION_REVISION=$VERSION_REVISION" >> $GITHUB_ENV
+        echo "VERSION_MAJOR=$VERSION_MAJOR" >> $GITHUB_ENV
+        echo "VERSION_MINOR=$VERSION_MINOR" >> $GITHUB_ENV
+        echo "VERSION=$VERSION" >> $GITHUB_ENV
         echo "Revision: $VERSION_REVISION"
         echo "Major version: $VERSION_MAJOR"
         echo "Minor version: $VERSION_MINOR"
