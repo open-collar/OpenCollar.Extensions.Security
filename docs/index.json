@@ -4,15 +4,15 @@
     "title": "OpenCollar.Extensions.Security | API Documentation",
     "keywords": "OpenCollar.Extensions.Security Support for automatic validation, update and strongly-typed access to configuration. NuGet Package Installation Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Security/"
   },
-  "usage/index.html": {
-    "href": "usage/index.html",
-    "title": "Basics | API Documentation",
-    "keywords": "Basics The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime."
+  "api/OpenCollar.Extension.Security.Encryption.html": {
+    "href": "api/OpenCollar.Extension.Security.Encryption.html",
+    "title": "Class Encryption | API Documentation",
+    "keywords": "Class Encryption Simple encryption utilities. Inheritance System.Object Encryption Namespace : OpenCollar.Extension.Security Assembly : OpenCollar.Extensions.Security.dll Syntax public static class Encryption Methods | Improve this Doc View Source Decrypt(String, String) Decrypts the specified encrypted text. Declaration [NotNull] public static string Decrypt([NotNull] string encryptedText, [NotNull] string key) Parameters Type Name Description System.String encryptedText The encrypted text to decrypt. System.String key The string the acts as a pass phrase. Returns Type Description System.String A plaintext string. Exceptions Type Condition System.ArgumentNullException key is null . System.ArgumentException key is zero length. System.ArgumentNullException encryptedText is null . System.ArgumentException encryptedText is zero length. | Improve this Doc View Source Encrypt(String, String) Encrypts the specified plain text. Declaration [NotNull] public static string Encrypt([NotNull] string plainText, [NotNull] string key) Parameters Type Name Description System.String plainText The plain text string to encrypt. System.String key The string the acts as a pass phrase. Returns Type Description System.String A string containing an encrypted representation of the text given Exceptions Type Condition System.ArgumentNullException key is null . System.ArgumentException key is zero length. System.ArgumentNullException plainText is null . System.ArgumentException plainText is zero length."
   },
-  "index.html": {
-    "href": "index.html",
-    "title": "OpenCollar.Extensions.Security | API Documentation",
-    "keywords": "OpenCollar.Extensions.Security The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime. NuGet Package Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Security/ Project Latest Build: Source Code on GitHub Issue Tracking on GitHub Documentation on GitHub Pages Usage The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime. Related Projects OpenCollar.Extensions OpenCollar.Extensions.ApplicationInsights OpenCollar.Extensions.Collections OpenCollar.Extensions.Configuraton OpenCollar.Extensions.Environment OpenCollar.Extensions.IO OpenCollar.Extensions.Logging OpenCollar.Extensions.Security OpenCollar.Extensions.Threading OpenCollar.Extensions.Validation"
+  "api/OpenCollar.Extension.Security.html": {
+    "href": "api/OpenCollar.Extension.Security.html",
+    "title": "Namespace OpenCollar.Extension.Security | API Documentation",
+    "keywords": "Namespace OpenCollar.Extension.Security Classes Encryption Simple encryption utilities. Threading A class providing static utility methods related to impersonation."
   },
   "api/OpenCollar.Extension.Security.Threading.html": {
     "href": "api/OpenCollar.Extension.Security.Threading.html",
@@ -24,19 +24,19 @@
     "title": "Namespace OpenCollar.Extensions.Security | API Documentation",
     "keywords": "Namespace OpenCollar.Extensions.Security Classes SecureStringExtensions Extensions to the System.Security.SecureString class and related helpers."
   },
-  "api/OpenCollar.Extension.Security.html": {
-    "href": "api/OpenCollar.Extension.Security.html",
-    "title": "Namespace OpenCollar.Extension.Security | API Documentation",
-    "keywords": "Namespace OpenCollar.Extension.Security Classes Encryption Simple encryption utilities. Threading A class providing static utility methods related to impersonation."
-  },
-  "api/OpenCollar.Extension.Security.Encryption.html": {
-    "href": "api/OpenCollar.Extension.Security.Encryption.html",
-    "title": "Class Encryption | API Documentation",
-    "keywords": "Class Encryption Simple encryption utilities. Inheritance System.Object Encryption Namespace : OpenCollar.Extension.Security Assembly : OpenCollar.Extensions.Security.dll Syntax public static class Encryption Methods | Improve this Doc View Source Decrypt(String, String) Decrypts the specified encrypted text. Declaration [NotNull] public static string Decrypt([NotNull] string encryptedText, [NotNull] string key) Parameters Type Name Description System.String encryptedText The encrypted text to decrypt. System.String key The string the acts as a pass phrase. Returns Type Description System.String A plaintext string. Exceptions Type Condition System.ArgumentNullException key is null . System.ArgumentException key is zero length. System.ArgumentNullException encryptedText is null . System.ArgumentException encryptedText is zero length. | Improve this Doc View Source Encrypt(String, String) Encrypts the specified plain text. Declaration [NotNull] public static string Encrypt([NotNull] string plainText, [NotNull] string key) Parameters Type Name Description System.String plainText The plain text string to encrypt. System.String key The string the acts as a pass phrase. Returns Type Description System.String A string containing an encrypted representation of the text given Exceptions Type Condition System.ArgumentNullException key is null . System.ArgumentException key is zero length. System.ArgumentNullException plainText is null . System.ArgumentException plainText is zero length."
-  },
   "api/OpenCollar.Extensions.Security.SecureStringExtensions.html": {
     "href": "api/OpenCollar.Extensions.Security.SecureStringExtensions.html",
     "title": "Class SecureStringExtensions | API Documentation",
     "keywords": "Class SecureStringExtensions Extensions to the System.Security.SecureString class and related helpers. Inheritance System.Object SecureStringExtensions Namespace : OpenCollar.Extensions.Security Assembly : OpenCollar.Extensions.Security.dll Syntax public static class SecureStringExtensions Methods | Improve this Doc View Source ToSecureString(String) Converts a standard .NET string into a secure string. Declaration [ContractAnnotation(\"null=>null;notnull=>notnull\")] public static SecureString ToSecureString([CanBeNull] this string value) Parameters Type Name Description System.String value The .NET string to convert. If null then null is returned. Returns Type Description System.Security.SecureString A read-only secure string containing the value supplied in the .NET string, or null if that was supplied. It is the callers responsibility to dispose of the secure string when finished. | Improve this Doc View Source ToSystemString(SecureString) Converts secure string to a standard .NET string. Declaration [ContractAnnotation(\"null=>null;notnull=>notnull\")] public static string ToSystemString([CanBeNull] this SecureString value) Parameters Type Name Description System.Security.SecureString value The secure string to convert. If null then null is returned. Returns Type Description System.String A .NET string containing the value supplied in the secure string, or null if that was supplied."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "OpenCollar.Extensions.Security | API Documentation",
+    "keywords": "OpenCollar.Extensions.Security The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime. NuGet Package Package and installation instructions at: https://www.nuget.org/packages/OpenCollar.Extensions.Security/ Project Latest Build: Source Code on GitHub Issue Tracking on GitHub Documentation on GitHub Pages Usage The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime. Related Projects OpenCollar.Extensions OpenCollar.Extensions.ApplicationInsights OpenCollar.Extensions.Collections OpenCollar.Extensions.Configuraton OpenCollar.Extensions.Environment OpenCollar.Extensions.IO OpenCollar.Extensions.Logging OpenCollar.Extensions.Security OpenCollar.Extensions.Threading OpenCollar.Extensions.Validation"
+  },
+  "usage/index.html": {
+    "href": "usage/index.html",
+    "title": "Basics | API Documentation",
+    "keywords": "Basics The purpose of the libarary is to provide simple and concise extension methods that allow arguments and state to be validated efficiently at runtime."
   }
 }
