@@ -23,7 +23,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Security.Principal;
 using System.Threading;
 
-namespace OpenCollar.Extension.Security
+namespace OpenCollar.Extensions.Security
 {
     /// <summary>
     ///     A class providing static utility methods related to impersonation.

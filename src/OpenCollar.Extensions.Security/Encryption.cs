@@ -26,7 +26,7 @@ using System.Text;
 
 using OpenCollar.Extensions.Validation;
 
-namespace OpenCollar.Extension.Security
+namespace OpenCollar.Extensions.Security
 {
     /// <summary>
     ///     Simple encryption utilities.
