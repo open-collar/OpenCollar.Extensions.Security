@@ -14,35 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/OpenCollar.Extension.Security.Encryption.yml",
+      "source_relative_path": "api/OpenCollar.Extensions.Security.Encryption.yml",
       "output": {
         ".html": {
-          "relative_path": "api/OpenCollar.Extension.Security.Encryption.html",
-          "hash": "CSEM24cH8MA490rkrDoZlQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/OpenCollar.Extension.Security.Threading.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/OpenCollar.Extension.Security.Threading.html",
-          "hash": "E90VDh0pbFN7JgEWblAxWA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/OpenCollar.Extension.Security.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/OpenCollar.Extension.Security.html",
-          "hash": "QHUMV2gCPjfB+fWbwZCVsA=="
+          "relative_path": "api/OpenCollar.Extensions.Security.Encryption.html",
+          "hash": "ktJ0f6S8g82oPMQ1DvGP8A=="
         }
       },
       "is_incremental": false,
@@ -62,11 +38,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenCollar.Extensions.Security.Threading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenCollar.Extensions.Security.Threading.html",
+          "hash": "d7k+8WjXUKC8eInWoPnqJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenCollar.Extensions.Security.yml",
       "output": {
         ".html": {
           "relative_path": "api/OpenCollar.Extensions.Security.html",
-          "hash": "mBNrTW+m7JtQpN0bmavazg=="
+          "hash": "pmeczKppcJ/KK1cPXMQigQ=="
         }
       },
       "is_incremental": false,
@@ -90,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "5pevesT2RaGaCxdAfNoJvA=="
+          "hash": "RRrFnlz8QK6osIv8AMN/OQ=="
         }
       },
       "is_incremental": false,
@@ -198,7 +186,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 4,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

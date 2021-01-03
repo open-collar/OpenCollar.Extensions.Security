@@ -1,82 +1,44 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: OpenCollar.Extension.Security
-  name: OpenCollar.Extension.Security
-  href: api/OpenCollar.Extension.Security.html
-  commentId: N:OpenCollar.Extension.Security
-  fullName: OpenCollar.Extension.Security
-  nameWithType: OpenCollar.Extension.Security
-- uid: OpenCollar.Extension.Security.Encryption
-  name: Encryption
-  href: api/OpenCollar.Extension.Security.Encryption.html
-  commentId: T:OpenCollar.Extension.Security.Encryption
-  fullName: OpenCollar.Extension.Security.Encryption
-  nameWithType: Encryption
-- uid: OpenCollar.Extension.Security.Encryption.Decrypt(System.String,System.String)
-  name: Decrypt(String, String)
-  href: api/OpenCollar.Extension.Security.Encryption.html#OpenCollar_Extension_Security_Encryption_Decrypt_System_String_System_String_
-  commentId: M:OpenCollar.Extension.Security.Encryption.Decrypt(System.String,System.String)
-  fullName: OpenCollar.Extension.Security.Encryption.Decrypt(System.String, System.String)
-  nameWithType: Encryption.Decrypt(String, String)
-- uid: OpenCollar.Extension.Security.Encryption.Decrypt*
-  name: Decrypt
-  href: api/OpenCollar.Extension.Security.Encryption.html#OpenCollar_Extension_Security_Encryption_Decrypt_
-  commentId: Overload:OpenCollar.Extension.Security.Encryption.Decrypt
-  isSpec: "True"
-  fullName: OpenCollar.Extension.Security.Encryption.Decrypt
-  nameWithType: Encryption.Decrypt
-- uid: OpenCollar.Extension.Security.Encryption.Encrypt(System.String,System.String)
-  name: Encrypt(String, String)
-  href: api/OpenCollar.Extension.Security.Encryption.html#OpenCollar_Extension_Security_Encryption_Encrypt_System_String_System_String_
-  commentId: M:OpenCollar.Extension.Security.Encryption.Encrypt(System.String,System.String)
-  fullName: OpenCollar.Extension.Security.Encryption.Encrypt(System.String, System.String)
-  nameWithType: Encryption.Encrypt(String, String)
-- uid: OpenCollar.Extension.Security.Encryption.Encrypt*
-  name: Encrypt
-  href: api/OpenCollar.Extension.Security.Encryption.html#OpenCollar_Extension_Security_Encryption_Encrypt_
-  commentId: Overload:OpenCollar.Extension.Security.Encryption.Encrypt
-  isSpec: "True"
-  fullName: OpenCollar.Extension.Security.Encryption.Encrypt
-  nameWithType: Encryption.Encrypt
-- uid: OpenCollar.Extension.Security.Threading
-  name: Threading
-  href: api/OpenCollar.Extension.Security.Threading.html
-  commentId: T:OpenCollar.Extension.Security.Threading
-  fullName: OpenCollar.Extension.Security.Threading
-  nameWithType: Threading
-- uid: OpenCollar.Extension.Security.Threading.GetThreadPrincipal
-  name: GetThreadPrincipal()
-  href: api/OpenCollar.Extension.Security.Threading.html#OpenCollar_Extension_Security_Threading_GetThreadPrincipal
-  commentId: M:OpenCollar.Extension.Security.Threading.GetThreadPrincipal
-  fullName: OpenCollar.Extension.Security.Threading.GetThreadPrincipal()
-  nameWithType: Threading.GetThreadPrincipal()
-- uid: OpenCollar.Extension.Security.Threading.GetThreadPrincipal*
-  name: GetThreadPrincipal
-  href: api/OpenCollar.Extension.Security.Threading.html#OpenCollar_Extension_Security_Threading_GetThreadPrincipal_
-  commentId: Overload:OpenCollar.Extension.Security.Threading.GetThreadPrincipal
-  isSpec: "True"
-  fullName: OpenCollar.Extension.Security.Threading.GetThreadPrincipal
-  nameWithType: Threading.GetThreadPrincipal
-- uid: OpenCollar.Extension.Security.Threading.GetThreadUser
-  name: GetThreadUser()
-  href: api/OpenCollar.Extension.Security.Threading.html#OpenCollar_Extension_Security_Threading_GetThreadUser
-  commentId: M:OpenCollar.Extension.Security.Threading.GetThreadUser
-  fullName: OpenCollar.Extension.Security.Threading.GetThreadUser()
-  nameWithType: Threading.GetThreadUser()
-- uid: OpenCollar.Extension.Security.Threading.GetThreadUser*
-  name: GetThreadUser
-  href: api/OpenCollar.Extension.Security.Threading.html#OpenCollar_Extension_Security_Threading_GetThreadUser_
-  commentId: Overload:OpenCollar.Extension.Security.Threading.GetThreadUser
-  isSpec: "True"
-  fullName: OpenCollar.Extension.Security.Threading.GetThreadUser
-  nameWithType: Threading.GetThreadUser
 - uid: OpenCollar.Extensions.Security
   name: OpenCollar.Extensions.Security
   href: api/OpenCollar.Extensions.Security.html
   commentId: N:OpenCollar.Extensions.Security
   fullName: OpenCollar.Extensions.Security
   nameWithType: OpenCollar.Extensions.Security
+- uid: OpenCollar.Extensions.Security.Encryption
+  name: Encryption
+  href: api/OpenCollar.Extensions.Security.Encryption.html
+  commentId: T:OpenCollar.Extensions.Security.Encryption
+  fullName: OpenCollar.Extensions.Security.Encryption
+  nameWithType: Encryption
+- uid: OpenCollar.Extensions.Security.Encryption.Decrypt(System.String,System.String)
+  name: Decrypt(String, String)
+  href: api/OpenCollar.Extensions.Security.Encryption.html#OpenCollar_Extensions_Security_Encryption_Decrypt_System_String_System_String_
+  commentId: M:OpenCollar.Extensions.Security.Encryption.Decrypt(System.String,System.String)
+  fullName: OpenCollar.Extensions.Security.Encryption.Decrypt(System.String, System.String)
+  nameWithType: Encryption.Decrypt(String, String)
+- uid: OpenCollar.Extensions.Security.Encryption.Decrypt*
+  name: Decrypt
+  href: api/OpenCollar.Extensions.Security.Encryption.html#OpenCollar_Extensions_Security_Encryption_Decrypt_
+  commentId: Overload:OpenCollar.Extensions.Security.Encryption.Decrypt
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Security.Encryption.Decrypt
+  nameWithType: Encryption.Decrypt
+- uid: OpenCollar.Extensions.Security.Encryption.Encrypt(System.String,System.String)
+  name: Encrypt(String, String)
+  href: api/OpenCollar.Extensions.Security.Encryption.html#OpenCollar_Extensions_Security_Encryption_Encrypt_System_String_System_String_
+  commentId: M:OpenCollar.Extensions.Security.Encryption.Encrypt(System.String,System.String)
+  fullName: OpenCollar.Extensions.Security.Encryption.Encrypt(System.String, System.String)
+  nameWithType: Encryption.Encrypt(String, String)
+- uid: OpenCollar.Extensions.Security.Encryption.Encrypt*
+  name: Encrypt
+  href: api/OpenCollar.Extensions.Security.Encryption.html#OpenCollar_Extensions_Security_Encryption_Encrypt_
+  commentId: Overload:OpenCollar.Extensions.Security.Encryption.Encrypt
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Security.Encryption.Encrypt
+  nameWithType: Encryption.Encrypt
 - uid: OpenCollar.Extensions.Security.SecureStringExtensions
   name: SecureStringExtensions
   href: api/OpenCollar.Extensions.Security.SecureStringExtensions.html
@@ -109,3 +71,35 @@ references:
   isSpec: "True"
   fullName: OpenCollar.Extensions.Security.SecureStringExtensions.ToSystemString
   nameWithType: SecureStringExtensions.ToSystemString
+- uid: OpenCollar.Extensions.Security.Threading
+  name: Threading
+  href: api/OpenCollar.Extensions.Security.Threading.html
+  commentId: T:OpenCollar.Extensions.Security.Threading
+  fullName: OpenCollar.Extensions.Security.Threading
+  nameWithType: Threading
+- uid: OpenCollar.Extensions.Security.Threading.GetThreadPrincipal
+  name: GetThreadPrincipal()
+  href: api/OpenCollar.Extensions.Security.Threading.html#OpenCollar_Extensions_Security_Threading_GetThreadPrincipal
+  commentId: M:OpenCollar.Extensions.Security.Threading.GetThreadPrincipal
+  fullName: OpenCollar.Extensions.Security.Threading.GetThreadPrincipal()
+  nameWithType: Threading.GetThreadPrincipal()
+- uid: OpenCollar.Extensions.Security.Threading.GetThreadPrincipal*
+  name: GetThreadPrincipal
+  href: api/OpenCollar.Extensions.Security.Threading.html#OpenCollar_Extensions_Security_Threading_GetThreadPrincipal_
+  commentId: Overload:OpenCollar.Extensions.Security.Threading.GetThreadPrincipal
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Security.Threading.GetThreadPrincipal
+  nameWithType: Threading.GetThreadPrincipal
+- uid: OpenCollar.Extensions.Security.Threading.GetThreadUser
+  name: GetThreadUser()
+  href: api/OpenCollar.Extensions.Security.Threading.html#OpenCollar_Extensions_Security_Threading_GetThreadUser
+  commentId: M:OpenCollar.Extensions.Security.Threading.GetThreadUser
+  fullName: OpenCollar.Extensions.Security.Threading.GetThreadUser()
+  nameWithType: Threading.GetThreadUser()
+- uid: OpenCollar.Extensions.Security.Threading.GetThreadUser*
+  name: GetThreadUser
+  href: api/OpenCollar.Extensions.Security.Threading.html#OpenCollar_Extensions_Security_Threading_GetThreadUser_
+  commentId: Overload:OpenCollar.Extensions.Security.Threading.GetThreadUser
+  isSpec: "True"
+  fullName: OpenCollar.Extensions.Security.Threading.GetThreadUser
+  nameWithType: Threading.GetThreadUser
